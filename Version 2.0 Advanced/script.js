@@ -98,11 +98,13 @@ document.addEventListener("DOMContentLoaded", function() {
       playerName: playerName,
       score: score1,
       selectedDifficulty: difficultyLevel,
-      
     }
   
     highscores.push(highscoreEntry);
-    
+  
+    highscores.sort((a, b) => b.score - a.score); 
+    highscores.splice(5); 
+  
     localStorage.setItem('highscores', JSON.stringify(highscores));
   
     updateHighscoreTable();
