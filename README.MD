@@ -1,1 +1,1 @@
-FlappyBird, geschrieben in JavaScript in 2 Versionen.
+FlappyBird, geschrieben in JavaScript in 3 Versionen.
